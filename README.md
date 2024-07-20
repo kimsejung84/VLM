@@ -3,10 +3,10 @@
 This repository provides a data pipeline for Vision Language Models, specifically designed to process WorldView-3 imagery into 1024x1024 patches. Each patch retains its metadata, including latitude and longitude coordinates. The pipeline is capable of calculating the proportion of no-data pixels and determining the new central latitude and longitude for each patch. These processed WorldView-3 patches are stored in the NAS directory, while the corresponding text data is saved in a PostgreSQL database. For security purposes, the metadata is subsequently removed from each patch.
 
 # Flow
-
+![image](./image.png)
 
 # Docker
-![image](./image.png)
+Download the file.
 
 # Details
 1. All in-house World View3 TIFF and TIF files
