@@ -6,7 +6,7 @@ This repository provides a data pipeline for Vision Language Models, specificall
 
 
 # Docker
-
+![image](./image.png)
 
 # Details
 1. All in-house World View3 TIFF and TIF files
